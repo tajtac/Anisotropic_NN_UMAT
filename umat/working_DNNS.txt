@@ -1,0 +1,15 @@
+Which DNNs work for what:
+DNN                 Uniaxial    Shearing    Torsion     Square Expander     Expansion
+S112S2_xy           -           -           -           -                   -
+S112S2_xys          -           -           -           -                   -
+
+P1C1_xy             -           -           -           -                   -
+P1C1_xys            +           +           +           -                   -
+
+P12BC2_xy           +           +           -           +                   +
+P12BC2_sxsy         +           -           -           +                   +
+P12BC2_xyb          +           -           -           +                   +
+P12BC2_bsxsy        +           -           -           -                   -
+P12BC2_xysxsy       +           -           -           +                   -
+
+P12AC1_xy           +           +           +           +                   +

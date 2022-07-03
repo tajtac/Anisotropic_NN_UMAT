@@ -1,0 +1,11 @@
+#!/bin/sh -l
+#SBATCH --nodes=1 --gpus-per-node=1 --time=1:30:00
+
+module load use.own
+module load conda-env/tf-py3.6.4
+
+cd $SLURM_SUBMIT_DIR
+
+python -u nnmat.py
+
+#To submit job execute this in the command line: "sbatch batch.sub

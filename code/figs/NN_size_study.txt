@@ -1,0 +1,41 @@
+Starting the training of P1C1_s_NN485
+2022-05-09 23:56:33.866338: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/vtac/.conda/envs/cent7/5.1.0-py36/tf/lib:/apps/spack/gilbreth/apps/anaconda/5.1.0-py36-gcc-4.8.5-5cfpkzk/lib/python3.6/site-packages:/apps/spack/gilbreth/apps/anaconda/5.1.0-py36-gcc-4.8.5-5cfpkzk/lib/python3.6:/apps/spack/gilbreth/apps/anaconda/5.1.0-py36-gcc-4.8.5-5cfpkzk/lib:/usr/lib64:/apps/gilbreth/cuda-toolkit/cuda-10.0.130/extras/CUPTI/lib64:/apps/gilbreth/cuda-toolkit/cuda-10.0.130/lib64:/apps/spack/gilbreth/apps/intel-mpi/2017.1.132-intel-17.0.1-o4mm4ht/compilers_and_libraries_2017.1.132/linux/mpi/intel64/lib:/apps/spack/gilbreth/apps/intel-mpi/2017.1.132-intel-17.0.1-o4mm4ht/compilers_and_libraries_2017.1.132/linux/mpi/mic/lib:/apps/spack/gilbreth/apps/intel-parallel-studio/cluster.2017.1-intel-17.0.1-2off4ih/itac/2017.1.024/intel64/slib:/apps/spack/gilbreth/apps/intel-parallel-studio/cluster.2017.1-intel-17.0.1-2off4ih/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64:/apps/spack/gilbreth/apps/intel-parallel-studio/cluster.2017.1-intel-17.0.1-2off4ih/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64_lin:/apps/spack/gilbreth/apps/intel-parallel-studio/cluster.2017.1-intel-17.0.1-2off4ih/compilers_and_libraries_2017.1.132/linux/mpi/intel64/lib:/apps/spack/gilbreth/apps/intel-parallel-studio/cluster.2017.1-intel-17.0.1-2off4ih/compilers_and_libraries_2017.1.132/linux/mpi/mic/lib:/apps/spack/gilbreth/apps/intel-parallel-studio/cluster.2017.1-intel-17.0.1-2off4ih/compilers_and_libraries_2017.1.132/linux/ipp/lib/intel64:/apps/spack/gilbreth/apps/intel-parallel-studio/cluster.2017.1-intel-17.0.1-2off4ih/compilers_and_libraries_2017.1.132/linux/mkl/lib/intel64_lin:/apps/spack/gilbreth/apps/intel-parallel-studio/cluster.2017.1-intel-17.0.1-2off4ih/compilers_and_libraries_2017.1.132/linux/tbb/lib/intel64/gcc4.7:/apps/spack/gilbreth/apps/intel-parallel-studio/cluster.2017.1-intel-17.0.1-2off4ih/debugger_2017/iga/lib:/apps/spack/gilbreth/apps/intel-parallel-studio/cluster.2017.1-intel-17.0.1-2off4ih/debugger_2017/libipt/intel64/lib:/apps/spack/gilbreth/apps/intel-parallel-studio/cluster.2017.1-intel-17.0.1-2off4ih/compilers_and_libraries_2017.1.132/linux/daal/lib/intel64_lin:/apps/spack/gilbreth/apps/intel-parallel-studio/cluster.2017.1-intel-17.0.1-2off4ih/compilers_and_libraries_2017.1.132/linux/daal/../tbb/lib/intel64_lin/gcc4.4:/apps/spack/gilbreth/apps/intel-parallel-studio/cluster.2017.1-intel-17.0.1-2off4ih/lib
+2022-05-09 23:56:33.866376: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1835] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-09 23:56:33.866769: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-05-09 23:56:34.280822: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+-----------------------------
+Total Loss =  1.2412109375
+sigma loss =  0.9548845291137695
+smtry loss =  0.015366284176707268
+cnvex_loss =  0.0
+-----------------------------
+Starting the training of P1C1_s_NN4485
+-----------------------------
+Total Loss =  0.1225549653172493
+sigma loss =  0.06726913154125214
+smtry loss =  0.011026688851416111
+cnvex_loss =  0.0
+-----------------------------
+Starting the training of P1C1_s_NN44885
+-----------------------------
+Total Loss =  0.09906654059886932
+sigma loss =  0.054616644978523254
+smtry loss =  0.008795485831797123
+cnvex_loss =  0.0
+-----------------------------
+Starting the training of P1C1_s_NN4445
+-----------------------------
+Total Loss =  0.6659010648727417
+sigma loss =  0.4701133966445923
+smtry loss =  0.017327826470136642
+cnvex_loss =  0.0
+-----------------------------
+Starting the training of P1C1_s_NN48165
+-----------------------------
+Total Loss =  0.11059476435184479
+sigma loss =  0.07538194209337234
+smtry loss =  0.009304147213697433
+cnvex_loss =  0.0
+-----------------------------

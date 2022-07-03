@@ -1,0 +1,6 @@
+Run times:
+    Training data       Model       Uniaxial    Torsion     Shearing    Square expander     Rec. expander
+    P1C1                GOH                     00:01:10    00:00:25
+    P1C1_xy             Base NN     00:00:45    00:02:24    00:00:55    00:07:03            00:11:57
+    P1C1_xy             Big  NN     00:00:47    --------    00:00:47
+    P1C1_xys            Big  NN     00:00:39    00:02:10    00:00:44    --------            00:07:55

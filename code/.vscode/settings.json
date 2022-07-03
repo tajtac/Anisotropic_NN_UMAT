@@ -1,0 +1,7 @@
+{
+    "python.linting.banditEnabled": false,
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+    "fortran.fortls.disabled": true
+}

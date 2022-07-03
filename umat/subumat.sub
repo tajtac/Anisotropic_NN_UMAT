@@ -1,0 +1,14 @@
+#!/bin/sh -l
+#SBATCH --nodes=1 --gpus-per-node=1 --time=00:30:00
+
+module load abaqus/2020
+
+cd $SLURM_SUBMIT_DIR
+rm *.lck
+# abaqus job=uni user=NN_UMAT_Vahid.f ask_delete=off -interactive
+# abaqus job=she user=NN_UMAT_Vahid.f ask_delete=off -interactive
+# abaqus job=tor user=NN_UMAT_Vahid.f ask_delete=off -interactive
+# abaqus job=sqe user=NN_UMAT_Vahid.f ask_delete=off -interactive
+abaqus job=exp user=NN_UMAT_Vahid.f ask_delete=off -interactive
+
+#To submit job execute this in the command line: "sbatch batch.sub
